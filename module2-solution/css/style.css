@@ -10,3 +10,8 @@ h1{
     text-align: center;
     font-size: 175%;
 }
+p{
+    padding: 10px;
+    margin: 0;
+    font-size: 100%;
+}
