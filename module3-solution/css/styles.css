@@ -79,11 +79,42 @@ hr{
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  #tostada-div {
+  #tostada-div{
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  #gordita-div {
+  #gordita-div{
     margin-bottom: 10px;
     margin-top: 10px;
   }
+.container{
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.navbar-brand{
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -30px;
+}
+.nav-header{
+  background-color: #FFFFFF;
+}
+.nav-brand{
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+.item{
+  color: white;
+  font-size: 1.5em;
+}
