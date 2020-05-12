@@ -72,3 +72,6 @@ hr{
     background-color: rgb(79, 83, 129);
     color: #FFFFFF;
   }
+  #nav-list {
+    color: white;
+  }
