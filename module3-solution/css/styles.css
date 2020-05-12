@@ -12,3 +12,13 @@ p{
 	padding: 10px;
 	margin: 0;
 }
+section {
+	border:	1px solid black;
+    background-color: rgb(169, 194, 241);
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
