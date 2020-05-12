@@ -10,25 +10,40 @@
     <title>Module-3</title>
 </head>
 <body>
-    <header class="nav-header">
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <div class="navbar-brand">
-                      <p class="nav-brand">Mexican Food, LLC</p>
-                    </div>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                  </div>
-                </div>
-            </div>
-        </nav>
+  <header class="nav-header">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <p class="nav-brand">Mexican Food, LLC</p>
+          </div>
 
-    </header>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#taco-div"><p class="item">Taco</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center tostada-item">
+              <a href="#tostada-div"><p class="item">Tostada</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center gordita-item">
+              <a href="#gordita-div"><p class="item">Gordita</p></a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+  	</header>
     <h1 class="text-center">Our Menu</h1>
     <div class="row container container-fluid">
       <div class="col-md-12 col-sm-12 col-xs-12" id="taco-div">
