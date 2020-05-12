@@ -22,3 +22,6 @@ section {
 	position: relative;
 	overflow: auto;
 }
+hr {
+    border-color: white;
+  }
