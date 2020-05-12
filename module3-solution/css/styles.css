@@ -1,6 +1,14 @@
 * {
 	box-sizing: border-box;
 }
-body {
+body{
 	background-color: rgb(224, 222, 222);
+}
+h1{
+	font-family: Brushstroke, fantasy;
+	color: #003c4b;
+}
+p{
+	padding: 10px;
+	margin: 0;
 }
